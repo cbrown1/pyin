@@ -23,7 +23,6 @@ setup(name='yin',
       author_email='cbrown1@pitt.edu',
       maintainer='Christopher Brown',
       maintainer_email='cbrown1@pitt.edu',
-      url='http://pyin.googlecode.com',
     cmdclass = {'build_ext':build_ext},
     ext_modules = ext_modules
 )
