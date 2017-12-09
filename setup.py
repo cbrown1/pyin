@@ -16,13 +16,16 @@ ext_modules = [
 setup(name='yin',
     version = "0.1",
     description='A python wrapper to the YIN pitch algorithm',
-      long_description='''\
+    long_description='''\
     A wrapper to the Yin algorithm, a well-established autocorrelation 
 	based pitch algorith.''',
-      author='Christopher Brown',
-      author_email='cbrown1@pitt.edu',
-      maintainer='Christopher Brown',
-      maintainer_email='cbrown1@pitt.edu',
+    url='https://github.com/cbrown1/pyin',
+    author='Christopher Brown',
+    author_email='cbrown1@pitt.edu',
+    maintainer='Christopher Brown',
+    maintainer_email='cbrown1@pitt.edu',
     cmdclass = {'build_ext':build_ext},
-    ext_modules = ext_modules
+    ext_modules = ext_modules,
+    setup_requires=['numpy>=1.2', 'cython>=0.24.1'],
+    install_requires=['numpy>=1.2', 'cython>=0.24.1'],
 )
