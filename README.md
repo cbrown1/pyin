@@ -25,3 +25,13 @@ sudo python setup.py install
 ```python
 pitch_track = get_pitch(sig, fs)
 ```
+
+## Authors
+
+- **Alain de Cheveigne**, **Hideki Kawahara** - Original Yin algorithm
+
+- **Christopher Brown**
+
+## License
+
+This project is licensed under the GPLv3 - see the [LICENSE.md](LICENSE.md) file for details.
