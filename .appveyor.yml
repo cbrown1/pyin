@@ -10,16 +10,6 @@ environment:
     # a later point release.
     # See: http://www.appveyor.com/docs/installed-software#python
 
-    - PYTHON: "C:\\Python26"
-      PYTHON_VERSION: "2.6.x" # currently 2.6.6
-      PYTHON_ARCH: "32"
-      MSVC_VERSION: "Visual Studio 10"
-
-    - PYTHON: "C:\\Python26-x64"
-      PYTHON_VERSION: "2.6.x" # currently 2.6.6
-      PYTHON_ARCH: "64"
-      MSVC_VERSION: "Visual Studio 10 Win64"
-
     - PYTHON: "C:\\Python27"
       PYTHON_VERSION: "2.7.x" # currently 2.7.14
       PYTHON_ARCH: "32"
