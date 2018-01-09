@@ -4,7 +4,7 @@
 
 A python binding to the yin algorithm, a well-established autocorrelation based pitch algorithm. 
 
-Read a paper on Yin here: http://audition.ens.fr/adc/pdf/2002_JASA_YIN.pdf
+Read [a paper on Yin](http://audition.ens.fr/adc/pdf/2002_JASA_YIN.pdf)
 
 ## Installing
 
@@ -30,7 +30,9 @@ pitch_track = get_pitch(sig, fs)
 
 - **Alain de Cheveigne**, **Hideki Kawahara** - Original Yin algorithm
 
-- **Christopher Brown**
+- **Ashok Fernandez** - [C code](https://github.com/ashokfernandez/Yin-Pitch-Tracking)
+
+- **Christopher Brown** - The python wrapper
 
 ## License
 
