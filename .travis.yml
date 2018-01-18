@@ -25,3 +25,10 @@ script:
 
 notifications:
   email: false
+# deploy disabled because spyral is already a pypi package
+deploy:
+  provider: pypi
+  user: code-breaker
+  distributions: "bdist_wheel"
+  password:
+    secure: WjdtbqVMs4UNS1f2/jeiP+bGNDMMcdu7PbOuaEhncs37i48Q2BJ8oslyExZzG05/quJ00ve3l3vjVj0UgtoP7Rx8l16WYs9D0X1sMpaCm5NpEE59O0zefY192NT2+/QDgePiyR2DsJ4fNJwBRwQNYi4JeouM3FvjeLmtNeDV+3md5uC/xys8tRsLOrajbJ0UjJamvBA9m0R4IanLAI11dryosJc7luHve6tvR9G/fRLK3oBdf2SDi0TQEc3QcYXV/2wFYQFaGV3KKYPoZ6R8aQcAdI/VsSlAhKWaOL/l6O1RvLTucf3AJHMpiknyBbRdtFKowuqEWXMpn+3W/ZF5vJMb8KRAi1OsdMO9m3fRZmwM73JXQIQh3mYTf448qlb0Me+mIG1kh81y8J96g7IRMDuLeANSCLx/y10TuFeZJNc7NCRPxBzdbdhP5UExU6+DFClkPBJ9jzPHa5fhGG5lEh7XRtxUEtzUW+YorL6iBEzYb+OXIjizRkVtkK8qcozx8CVjmgXNutgB4HEqrPXI4m6mRDymulhAXfkJSLwBFjsoR7DcPvy9yYSJc6Z706+mYiLC1uZ6vzYad531emoS4P4stxB3fmL5FKtaq0ihIXAFbxk9MrSZkFCoPF6KKCukEfF7L+mu+E+1q/vPzVHN74CvjS9hBWIOmvkezHBhMbg=
